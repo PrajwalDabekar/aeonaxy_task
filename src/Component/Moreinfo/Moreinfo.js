@@ -6,10 +6,33 @@ import { Link } from "react-router-dom";
 function Moreinfo() {
     return(
         <div className="flex flex-col justify-center items-center w-full p-3">
+            <div className="flex w-full justify-end">
+                <Link to='/help'
+                className="flex px-6 py-2 bg-black text-white rounded-md font-semibold hover:underline sm:fixed sm:right-7 sm:top-1/2"
+                ><div>Help</div>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="ml-2"
+                    >                   
+                      <circle cx="12" cy="12" r="10" />
+                      <line x1="12" y1="16" x2="12" y2="12" />
+                      <line x1="12" y1="8" x2="12" y2="8" />
+                    </svg>
+                </Link>
+            </div>
         <div className="flex flex-col justify-center items-center font-serif py-6 space-y-4 text-center">
             <div className="text-3xl mt-6">Tell us a little more about your self</div>
             <div className="">Your answer will help us build an experience to match your need.</div>
             </div>
+            
             <div className="space-y-8 px-2">
             <div className="space-y-8">
                 <CustomDropdown
@@ -49,12 +72,16 @@ function Moreinfo() {
                 options={['None','A few pieces','Several pieces','A significant amount','Extensive library']}
                 />
             </div>
-            <div className="flex justify-end w-[320px] pb-8 sm:[w-600px]">
+            
+            <div className="flex justify-end w-[320px] pb-8 sm:w-full">
+                
                 <Link to='/'
                 className="px-8 py-2 border-2 border-black rounded-md hover:underline"
                 >Next</Link>
             </div>
+            
             </div>
+            
         </div>
     )
 }

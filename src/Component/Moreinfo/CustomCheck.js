@@ -10,7 +10,7 @@ function CustomCheck({question='what is your question',options=[]}){
                     className="flex items-center h-full flex">
                     <input
                     type="checkbox"
-                    className="p-4 mx-2 my-2 h-5 w-5"
+                    className="p-4 mx-2 my-2 h-5 w-5 sm:h-5 w-5"
                     />
                     <label className="font-semibold">{option}</label>
                     </div>
