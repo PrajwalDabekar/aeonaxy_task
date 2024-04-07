@@ -28,7 +28,7 @@ function Login(){
                 <div className="text-3xl text-center py-2">
                 Get started with Teachable
                 </div>
-                <div className="pt-2 text-center">
+                <div className="py-2 text-center">
                     Join more than 100,000 creators who've sold over <span className="font-bold">$1 billion</span> in courses and coaching.
                 </div>
             </div>
