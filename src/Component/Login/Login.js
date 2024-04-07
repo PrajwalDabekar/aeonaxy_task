@@ -23,9 +23,9 @@ function Login(){
     }
     return(
         <div className="">
-            <div className="w-screen text-2xl text-center font-sans font-semibold py-4 border-y-2 border-black">teach:able</div>
+            <div className="w-screen text-3xl text-center font-reddit font-semibold py-4 border-y-2 border-black">teach:able</div>
             <div className="mt-2 space-y-6 px-2 pt-4">
-                <div className="text-3xl text-center py-2">
+                <div className="text-3xl text-center py-2 font-playfair">
                 Get started with Teachable
                 </div>
                 <div className="py-2 text-center">
